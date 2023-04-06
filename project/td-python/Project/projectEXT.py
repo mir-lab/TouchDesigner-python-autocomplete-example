@@ -1,10 +1,11 @@
 import lookup
+import projectTools
 
 class Project:
 
     def __init__(self, owner_op):
         self.Owner_op = owner_op
-        print('Project Init')
+        print(f'Project Init at | {projectTools.MyTime.TD_now()}')
 
     def Touch_start(self):
         print('Running Touch Start | Project')

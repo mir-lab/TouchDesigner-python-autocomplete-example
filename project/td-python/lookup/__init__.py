@@ -4,6 +4,7 @@ try:
     import Project
     import Data
     import Output
+    import CustomOp
 
 except:
     pass

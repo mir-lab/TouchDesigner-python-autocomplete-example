@@ -1,3 +1,3 @@
-import dataEXT
+from . import data
 
-Data = dataEXT.Data
+Data = data.Data

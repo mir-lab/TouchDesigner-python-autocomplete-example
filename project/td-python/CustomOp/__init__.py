@@ -1,3 +1,3 @@
-import customOpEXT
+from . import customOp
 
-CustomOp = customOpEXT.CustomOp
+CustomOp = customOp.CustomOp

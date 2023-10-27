@@ -1,3 +1,3 @@
-import outputEXT
+from . import output
 
-Output = outputEXT.Output
+Output = output.Output

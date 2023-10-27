@@ -1,3 +1,3 @@
-import projectEXT
+from . import project
 
-Project = projectEXT.Project
+Project = project.Project
